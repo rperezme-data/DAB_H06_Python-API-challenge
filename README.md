@@ -15,7 +15,7 @@ Data collection is achieved using two main sources:
 
 #### Data Analysis Workflow
 
-###### WeatherPy
+##### WeatherPy
 
 1. Generate random geographic coordinate pairs (lat, lng).
 2. Get city name for given locations using `citypy`.
@@ -32,7 +32,7 @@ Data collection is achieved using two main sources:
   + Compute Pearson correlation coefficient
   + Display linear regression results over scatter plot
 
-###### VacationPy
+##### VacationPy
 
 1. Import raw weather data from CSV.
 2. Generate heatmap layer using humidity values of all cities:
@@ -56,5 +56,5 @@ Data collection is achieved using two main sources:
 | --- |
 | ![Heatmap](VacationPy/Output/Hotel_Heatmap.png) |
 
-#### Note
+##### Note
 Jupyter Notebooks `WeatherPy.ipynb` &  `VacationPy.ipynb` are not correctly displayed in the GitHub interface. It is strongly suggested to download these files in order to run them natively.
