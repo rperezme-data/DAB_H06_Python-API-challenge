@@ -20,10 +20,10 @@ Data collection is achieved using two main sources:
 1. Generate random geographic coordinate pairs (lat, lng).
 2. Get city name for given locations using `citypy`.
 3. Collect weather variables from Open Weather API for each city:
-  + Max Temperature (°F)
-  + Humidity (%)
-  + Cloudiness (%)
-  + Wind Speed (mph)
+   + Max Temperature (°F)
+   + Humidity (%)
+   + Cloudiness (%)
+   + Wind Speed (mph)
 4. Export raw weather data to CSV.
 5. Inspect and clean data.
 6. Visualize data (scatter plot) using latitude as independant variable.
