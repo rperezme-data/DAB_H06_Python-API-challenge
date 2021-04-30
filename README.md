@@ -36,15 +36,15 @@ Data collection is achieved using two main sources:
 
 1. Import raw weather data from CSV.
 2. Generate heatmap layer using humidity values of all cities:
- + Add layer to base map.
- + Display map.
+  + Add layer to base map.
+  + Display map.
 3. Set ideal weather conditions.
 4. Select cities according to ideal weather criteria.
 5. Collect hotel data for ideal cities using Google Places API (nearby search).
 6. Get first found hotel data for each ideal city.
 7. Generate marker (hotel) layer with pop-up (info) box:
- + Add layer to previous map.
- + Display final map.
+  + Add layer to previous map.
+  + Display final map.
 
 #### Data Visualization
 
