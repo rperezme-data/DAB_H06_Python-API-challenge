@@ -28,14 +28,14 @@ Data collection is achieved using two main sources:
 5. Inspect and clean data.
 6. Visualize data (scatter plot) using latitude as independant variable.
 7. Split dataset for northern and southern hemispheres:
-  + Run linear regression
-  + Compute Pearson correlation coefficient
-  + Display linear regression results over scatter plot
+   + Run linear regression
+   + Compute Pearson correlation coefficient
+   + Display linear regression results over scatter plot
 
 ##### VacationPy
 
 1. Import raw weather data from CSV.
-2. Generate heatmap layer using humidity values of all cities:
+2. Generate weighted heatmap layer using humidity values (all cities):
    + Add layer to base map.
    + Display map.
 3. Set ideal weather conditions.
