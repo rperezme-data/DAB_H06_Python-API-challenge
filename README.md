@@ -1,5 +1,5 @@
 # Python-API-challenge
-### Data Analisys & Visualization of weather variables & geographic coordinates
+### Data Analysis & Visualization of weather variables & geographic coordinates
 
 #### Script Summary
 This script takes advantage of Jupyter Notebook features to showcase the description of the analysis workflow (Markdown), the programming code (Python), managing datasets (Pandas Dataframes), computing results and be able to display charts & plots (Matplotlib) and visualize Google maps markers & heatmaps (juypyter gmaps).
@@ -23,7 +23,7 @@ Data collection is achieved using two main sources:
 
 <br>
 
-| Jupyter `gmaps` heatmap & marker layers |
-| --- |
+| Jupyter `gmaps` weighted heatmap & marker layers |
+| :-- |
 | ![Heatmap](VacationPy/Output/Hotel_Heatmap.png) |
 
