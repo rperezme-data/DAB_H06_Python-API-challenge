@@ -58,3 +58,7 @@ Data collection is achieved using two main sources:
 
 ##### Note
 Jupyter Notebooks `WeatherPy.ipynb` &  `VacationPy.ipynb` are not correctly displayed in the GitHub interface. It is strongly suggested to download these files in order to run them natively.
+
+--- 
+
+**Contact:** [rperezme.data@gmail.com](mailto:rperezme.data@gmail.com)
