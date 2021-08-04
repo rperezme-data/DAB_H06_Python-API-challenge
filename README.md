@@ -1,10 +1,10 @@
 # Python-API-challenge
-### Data Analysis & Visualization of weather variables & geographic coordinates
+## Data Analysis & Visualization of weather variables & geographic coordinates
 
-#### Description
+### Description
 The scope of this analisys is to look for a relationship between latitude and diverse weather markers (max temperature, humidity, cloudiness and wind speed). Latitude is considered the independent variable and weather markers as dependant (to latitude) variables. Scatter plots and linear regressions are used to visually and numerically discover (respectively) if there is any relationship between the selected variables.
 
-#### Script Summary
+### Script Summary
 This script takes advantage of Jupyter Notebook features to showcase the description of the analysis workflow (Markdown), the programming code (Python), managing datasets (Pandas Dataframes), computing results and be able to display charts & plots (Matplotlib) and visualize Google maps markers & heatmaps (juypyter gmaps).
 
 Python `citypy` is used to get nearest city name from randomly generated geographic coordinates (latitude & longitude) and API calls are performed using Python `requests`.
@@ -13,9 +13,9 @@ Data collection is achieved using two main sources:
 - **Open Weather API** to retrieve current weather data for any given location (lat, lng).
 - **Google Places API (Nearby Search)** to find places (by type) within (radius) a specified area (location).
 
-#### Data Analysis Workflow
+### Data Analysis Workflow
 
-##### WeatherPy
+#### WeatherPy
 
 1. Generate random geographic coordinate pairs (lat, lng).
 2. Get city name for given locations using `citypy`.
@@ -32,7 +32,7 @@ Data collection is achieved using two main sources:
    + Compute Pearson correlation coefficient
    + Display linear regression results over scatter plot
 
-##### VacationPy
+#### VacationPy
 
 1. Import raw weather data from CSV.
 2. Generate weighted heatmap layer using humidity values (all cities):
@@ -46,7 +46,7 @@ Data collection is achieved using two main sources:
    + Add layer to previous map.
    + Display final map.
 
-#### Data Visualization
+### Data Visualization
 
 | Scatter plot using `cmaps` | Linear regression results `stats.linregress` |
 | --- | --- |
@@ -56,7 +56,7 @@ Data collection is achieved using two main sources:
 | --- |
 | ![Heatmap](VacationPy/Output/Hotel_Heatmap.png) |
 
-##### Note
+#### Note
 Jupyter Notebooks `WeatherPy.ipynb` &  `VacationPy.ipynb` are not correctly displayed in the GitHub interface. It is strongly suggested to download these files in order to run them natively.
 
 --- 
